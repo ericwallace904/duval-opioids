@@ -5,7 +5,7 @@ map.addLayer(layer);
 
 function setColor(overdoses) {
 	var overdose_num = parseInt (overdoses);
-	var getColor = chroma.scale(['#efedf5', '#756bb1']).domain([0,400]);
+	var getColor = chroma.scale(['#fee6ce', '#e6550d']).domain([0,200]);
 	return getColor(overdose_num);
 }
 
