@@ -54,7 +54,7 @@ od_info.onAdd = function (map) {
 
 od_info.update = function (props) {
 	this._div.innerHTML = '<h4>Overdoses in 2017, Jan. 1 - June 18:</h4>' + (props ? 
-		'<b>ZIP Code ' + props.GEOID10 + '</b><br />' + props.OverdoseZip2016 + ' overdoses' : 'Hover over a ZIP code');
+		'<b>ZIP Code ' + props.GEOID10 + '</b><br />' + props.OverdoseZip + ' overdoses' : 'Hover over a ZIP code');
 };
 
 od_info.addTo(map);
